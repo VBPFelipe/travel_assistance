@@ -6,10 +6,10 @@ to start application
 
 Linux
     open a terminal screen:
-        python index.py
+        ```python index.py```
 
     in another terminal to send request (HTTP POST):
-        curl -H "Content-Type: application/json" -X POST '[JSON]' http://[localhost_url]:5000/json
+        ```curl -H "Content-Type: application/json" -X POST '[JSON]' http://[localhost_url]:5000/json```
 
     On browser to get request (HTTP GET):
         http://[localhost_port]:5000/read
