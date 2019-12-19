@@ -4,7 +4,8 @@ to start application
 
 --------------------------
 
-Linux
+# Linux
+
     open a terminal screen:
         ```python index.py```
 
