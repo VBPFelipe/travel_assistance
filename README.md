@@ -24,3 +24,8 @@ On terminal:
   ```ngrok http 5000```
 
 And, replace the local url with that one given by ngrok tunneling when built, adding the url sufixes.
+
+i.e.:
+
+    to POST - curl -H "Content-Type: application/json" -X POST '[JSON]' [ngrok_tunneling_url]/json
+    to GET  - [ngrok_tunneling_url]//read
