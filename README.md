@@ -6,7 +6,7 @@ Open a terminal screen:
 
 In another terminal to send request (HTTP POST):
 
-  ```curl -H "Content-Type: application/json" -X POST '[JSON]' http://[localhost_url]:5000/json```
+  ```curl -H "Content-Type: application/json" -X POST --data '[JSON]' http://[localhost_url]:5000/json```
 
 On browser to get request (HTTP GET):
 
