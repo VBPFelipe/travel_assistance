@@ -27,5 +27,5 @@ And, replace the local url with that one given by ngrok tunneling when built, ad
 
 i.e.:
 
-    to POST - curl -H "Content-Type: application/json" -X POST '[JSON]' [ngrok_tunneling_url]/json
+    to POST - curl -H "Content-Type: application/json" -X POST --data '[JSON]' [ngrok_tunneling_url]/json
     to GET  - [ngrok_tunneling_url]/read
